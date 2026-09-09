@@ -165,7 +165,6 @@
         player.Play();
         timerPosition.Start();
         buttonPlayPause.Text = "⏸";
-
       }
       else
       {
