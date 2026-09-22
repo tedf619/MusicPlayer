@@ -25,10 +25,10 @@ By using docked panels, the UI elements resize predictably when the main form is
 The panels handle all the resizing themselves.
 
 When laying out docked panels, their order (back to front) is important. The first panel added in the Visual Designer is the backmost.
-Additional panels appear on top of panels already added. With top-docked panels, the first one goes to the top, the second one docks right under it.
-Conversely, for bottom-docked panels the first one goes to the bottom, the second one docks right over it, and so on.
+Additional panels appear on top of panels already added. With top-docked panels, the first one goes to the top edge, the second one docks right under it.
+Conversely, for bottom-docked panels the first one goes to the bottom edge, the second one docks right above it, and so on.
 The panel with Dock=Fill, which contains the list of songs, needs to be the front-most panel. You either must add it last, or you can use the
-"Bring to Front" button in the Visual Designer, as shown in the figure below.
+"Bring to Front" button in Visual Studio's Visual Designer, as shown in the figure below.
 
 <img width="765" height="374" alt="image" src="https://github.com/user-attachments/assets/f04857d4-6121-46b8-ad80-08007eb931f4" />
 
