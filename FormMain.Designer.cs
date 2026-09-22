@@ -248,9 +248,9 @@
       // 
       // openFileDialog
       // 
-      openFileDialog.FileName = "openFileDialog1";
       openFileDialog.Filter = "Audio files (*.mp3;*.wav;*.wma;*.m4a)|*.mp3;*.wav;*.wma;*.m4a|All files (*.*)|*.*";
       openFileDialog.Multiselect = true;
+      openFileDialog.Title = "Open a Music File";
       // 
       // listViewPlaylist
       // 
